@@ -1,0 +1,22 @@
+/* Playlists.css */
+.song-item {
+  border: none;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.like-button {
+  margin-top: 10px;
+  float: right; /* Asegura que el botón se alinee a la derecha */
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-body .like-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+

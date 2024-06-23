@@ -1,0 +1,29 @@
+
+.navbar-custom {
+    background-color: black;
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-custom .navbar-brand .brand-color-play {
+    color: blue; /* Establecer color azul primero */
+    color: green; /* Establecer color verde sobre el azul */
+  }
+  
+  .navbar-custom .nav-link {
+    color: white;
+  }
+  
+  .navbar-custom .btn-outline-danger {
+    color: white;
+    border-color: white;
+  }
+  
+  .navbar-custom .btn-outline-danger:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+  }
+  

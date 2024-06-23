@@ -1,0 +1,112 @@
+/* styles.css */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    padding-top: 20px;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    color: #1db954;
+  }
+  
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+  }
+  
+  .btn-primary, .btn-primary:focus, .btn-primary:active, .btn-primary:hover {
+    background-color: #1db954;
+    border: none;
+  }
+  
+  .btn-secondary, .btn-secondary:focus, .btn-secondary:active, .btn-secondary:hover {
+    background-color: #535353;
+    border: none;
+  }
+  
+  .btn-warning, .btn-warning:focus, .btn-warning:active, .btn-warning:hover {
+    background-color: #f1c40f;
+    border: none;
+  }
+  
+  .btn-danger, .btn-danger:focus, .btn-danger:active, .btn-danger:hover {
+    background-color: #e74c3c;
+    border: none;
+  }
+  
+  .modal-content {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .modal-header, .modal-footer {
+    border: none;
+  }
+  
+  .form-control {
+    background-color: #333333;
+    border: none;
+    color: white;
+  }
+  
+  .form-control:focus {
+    background-color: #333333;
+    color: white;
+  }
+  
+  h2 {
+    color: #1db954;
+  }
+  
+  .btn-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-icon i {
+    margin-right: 5px;
+  }
+  
+
+.btn-create-playlist {
+  background-color: green;
+  border-color: green;
+  color: white;
+}
+
+.btn-create-playlist:hover {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+.btn-create-song {
+  background-color: green;
+  border-color: green;
+  color: white;
+}
+
+.btn-create-song:hover {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
